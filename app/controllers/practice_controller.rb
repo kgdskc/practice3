@@ -4,4 +4,7 @@ class PracticeController < ApplicationController
   
   def show
   end
+  
+  def edi
+  end
 end
