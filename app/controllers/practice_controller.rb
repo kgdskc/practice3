@@ -5,6 +5,9 @@ class PracticeController < ApplicationController
   def show
   end
   
-  def edi
+  def edit
+  end
+  
+  def up
   end
 end
