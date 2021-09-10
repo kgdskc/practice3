@@ -8,6 +8,7 @@ class PracticeController < ApplicationController
   def edit
   end
   
-  def up
+  def update
+  
   end
 end
