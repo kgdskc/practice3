@@ -29,11 +29,18 @@
 # n = c**(1/2.0)
 # puts n
 
-a = 6
-c = 10
-b = c * c - a * a
-n = b**(1/2.0)
-puts n
+# a = 6
+# c = 10
+# b = c * c - a * a
+# n = b**(1/2.0)
+# puts n
 # puts "WEBCAMPは".include?("い")
 
 # puts "webcamp".sum
+
+a = 4
+b = 4
+c = a * a + b * b
+n = c**(1/2.0)
+puts n
+
