@@ -38,9 +38,53 @@
 
 # puts "webcamp".sum
 
-a = 4
-b = 4
-c = a * a + b * b
-n = c**(1/2.0)
-puts n
+# a = 4
+# b = 4
+# c = a * a + b * b
+# n = c**(1/2.0)
+# puts n
 
+# puts "計算をはじめます"
+# puts "何回計算を繰り返しますか？"
+
+# input = gets.to_i
+
+# i = 1
+# while i <= input do
+#   puts "#{i}回目の計算"
+#   puts "2つの値を入力してください"
+  
+#   a = gets.to_i
+#   b = gets.to_i
+  
+#   puts "a=" + "#{a}"
+#   puts "b=" + "#{b}"
+  
+#   puts "計算結果を出力します"
+  
+#   puts "a+b=" + "#{a + b}"
+#   puts "a-b=" + "#{a - b}"
+#   puts "a*b=" + "#{a * b}"
+#   puts "a/b=" + "#{a / b}"
+  
+#   i += 1
+# end
+
+# puts "計算を終了します"
+  
+def fizz_buzz(number)
+  if number % 15 == 0
+    puts "Fizz_Buzz"
+  elsif number % 3 == 0
+    puts "Fizz"
+  elsif number % 5 == 0
+    puts "Buzz"
+  end
+end
+
+puts "数字を入力してください"
+
+input = gets.to_i
+
+puts "結果は"
+puts fizz_buzz(input)
