@@ -98,30 +98,42 @@
   //   });
   // });
 
-  $(document).ready(function () {
-    $("#images").skippr({
-      // スライドショーの変化 ("fade" or "slide")
-      transition : 'slide',
-      // 変化に係る時間(ミリ秒)
-      speed : 1000,
-      // easingの種類
-      easing : 'easeOutQuart',
-      // ナビゲーションの形("block" or "bubble")
-      navType : 'block',
-      // 子要素の種類("div" or "img")
-      childrenElementType : 'div',
-      // ナビゲーション矢印の表示(trueで表示)
-      arrows : true,
-      // スライドショーの自動再生(falseで自動再生なし)
-      autoPlay : true,
-      // 自動再生時のスライド切替間隔(ミリ秒)
-      autoPlayDuration : 3000,
-      // キーボードの矢印キーによるスライド送りの設定(trueで有効)
-      keyboardOnAlways : true,
-      // 一枚目のスライド表示時に戻る矢印を表示するかどうか(falseで非表示)
-      hidePrevious : false
-    });
+  // $(document).ready(function () {
+  //   $("#images").skippr({
+  //     // スライドショーの変化 ("fade" or "slide")
+  //     transition : 'slide',
+  //     // 変化に係る時間(ミリ秒)
+  //     speed : 1000,
+  //     // easingの種類
+  //     easing : 'easeOutQuart',
+  //     // ナビゲーションの形("block" or "bubble")
+  //     navType : 'block',
+  //     // 子要素の種類("div" or "img")
+  //     childrenElementType : 'div',
+  //     // ナビゲーション矢印の表示(trueで表示)
+  //     arrows : true,
+  //     // スライドショーの自動再生(falseで自動再生なし)
+  //     autoPlay : true,
+  //     // 自動再生時のスライド切替間隔(ミリ秒)
+  //     autoPlayDuration : 3000,
+  //     // キーボードの矢印キーによるスライド送りの設定(trueで有効)
+  //     keyboardOnAlways : true,
+  //     // 一枚目のスライド表示時に戻る矢印を表示するかどうか(falseで非表示)
+  //     hidePrevious : false
+  //   });
+  // });
+  
+  // $(function(){
+  //   $('.box1').on('click', function(){
+  //     $(this).slideUp();
+  //   });
+  // });
+
+$(function(){
+  $('button').on('click', function(){
+    $('ul').children().css('color','red');
   });
+});
 </script>
 
 <!--<div class="box1"></div>-->
@@ -143,12 +155,14 @@
 <!--  <li>Access</li>-->
 <!--</ul>-->
 
-<div id="box">
-  <div id="images">
-    <div class="image1"></div>
-    <div class="image2"></div>
-    <div class="image3"></div>
-    <div class="image4"></div>
-    <div class="image5"></div>
-  </div>
-</div>
+<!--<div id="box">-->
+<!--  <div id="images">-->
+<!--    <div class="image1"></div>-->
+<!--    <div class="image2"></div>-->
+<!--    <div class="image3"></div>-->
+<!--    <div class="image4"></div>-->
+<!--    <div class="image5"></div>-->
+<!--  </div>-->
+<!--</div>-->
+
+ 
