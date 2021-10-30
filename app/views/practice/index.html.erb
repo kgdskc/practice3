@@ -129,11 +129,20 @@
   //   });
   // });
 
+// $(function(){
+//   $('button').on('click', function(){
+//     $('ul').children().css('color','red');
+//   });
+// });
+
 $(function(){
-  $('button').on('click', function(){
-    $('ul').children().css('color','red');
+    $('.box1').mouseover(function(){
+      $('.box1').css({'background-color':'#0000FF'});
+    });
+    $('.box1').mouseout(function(){
+      $('.box1').css({'background-color':'#FF0000'});
+    });
   });
-});
 </script>
 
 <!--<div class="box1"></div>-->
